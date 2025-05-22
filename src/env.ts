@@ -12,11 +12,10 @@
 
 
 
-export const environment = {
-  CLOUDMR_SERVER: 'https://ku9p73detl.execute-api.us-east-1.amazonaws.com',
-  MRO_SERVER: 'https://3ip95tbnkf.execute-api.us-east-1.amazonaws.com/Prod',
-  PROFILE_SERVER: 'https://lnq0mvidgi.execute-api.us-east-1.amazonaws.com',
-  API_URL: 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com/api-token',
-  API_TOKEN: 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL',
-};
+export const CLOUDMR_SERVER = 'https://ku9p73detl.execute-api.us-east-1.amazonaws.com';
+export const MRO_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/Prod';
+export const PROFILE_SERVER = 'https://lnq0mvdigl.execute-api.us-east-1.amazonaws.com';
+export const API_URL = 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com/api-token';
+export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL';
+
 
