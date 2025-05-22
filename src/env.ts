@@ -11,14 +11,17 @@
 // export const API_TOKEN = 'yPWaWARdLvaKZd0blo3cjBcZBNwZE3t2ghzSs6Rf';
 
 
+export const CLOUDMR_SERVER = process.env.CLOUDMR_SERVER || 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com';
 
-// Final working env.ts with correct values from CloudFormation outputs
+export const MRO_SERVER = process.env.MRO_SERVER || 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';
 
-export const CLOUDMR_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';
-export const MRO_SERVER = 'https://ku9p73det1.execute-api.us-east-1.amazonaws.com/Prod';
-export const PROFILE_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';
-export const API_URL = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/api-token';
-export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL'; // value from SSM, already verified
+// To be merged into CloudMR Server
+export const PROFILE_SERVER = process.env.PROFILE_SERVER || 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com';
+
+export const API_URL = process.env.API_URL || 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com/api-token';
+
+export const API_TOKEN = process.env.API_TOKEN || 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL'; // Replace with fresh token if needed
+
 
 
 
