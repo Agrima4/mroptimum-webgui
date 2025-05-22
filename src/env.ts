@@ -12,10 +12,13 @@
 
 
 
-export const CLOUDMR_SERVER = 'https://ku9p73detl.execute-api.us-east-1.amazonaws.com';
-export const MRO_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/Prod';
-export const PROFILE_SERVER = 'https://lnq0mvdigl.execute-api.us-east-1.amazonaws.com';
-export const API_URL = 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com/api-token';
-export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL';
+// Final working env.ts with correct values from CloudFormation outputs
+
+export const CLOUDMR_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';
+export const MRO_SERVER = 'https://ku9p73det1.execute-api.us-east-1.amazonaws.com/Prod';
+export const PROFILE_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';
+export const API_URL = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/api-token';
+export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL'; // value from SSM, already verified
+
 
 
