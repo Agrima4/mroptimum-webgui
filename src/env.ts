@@ -13,9 +13,10 @@
 
 
 export const environment = {
-  CLOUDMR_SERVER: process.env.CLOUDMR_SERVER || '',
-  MRO_SERVER: process.env.MRO_SERVER || '',
-  PROFILE_SERVER: process.env.PROFILE_SERVER || '',
-  API_URL: process.env.API_URL || '',
-  API_TOKEN: process.env.API_TOKEN || '',
+  CLOUDMR_SERVER: 'https://ku9p73detl.execute-api.us-east-1.amazonaws.com',
+  MRO_SERVER: 'https://3ip95tbnkf.execute-api.us-east-1.amazonaws.com/Prod',
+  PROFILE_SERVER: 'https://lnq0mvidgi.execute-api.us-east-1.amazonaws.com',
+  API_URL: 'https://ewjjq013u0.execute-api.us-east-1.amazonaws.com/api-token',
+  API_TOKEN: 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL',
 };
+
