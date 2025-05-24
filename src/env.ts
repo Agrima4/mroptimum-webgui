@@ -24,14 +24,10 @@
 
 // src/env.ts
 
-export const CLOUDMR_SERVER = 'https://1vi3agb7cd.execute-api.us-east-1.amazonaws.com';
-
-export const MRO_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';
-
-// To be merged into CloudMR Server
-export const PROFILE_SERVER = 'https://1vi3agb7cd.execute-api.us-east-1.amazonaws.com';
-
-export const API_URL = 'https://1vi3agb7cd.execute-api.us-east-1.amazonaws.com/api-token';
+export const CLOUDMR_SERVER = 'https://1vi3agb7cd.execute-api.us-east-1.amazonaws.com'; // Host
+export const MRO_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';     // MROApi-dev
+export const PROFILE_SERVER = 'https://1nq0mvdigl.execute-api.us-east-1.amazonaws.com'; // ProfileGetAPI
+export const API_URL = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/api-token'; // matches MROApi-dev + /api-token
 
 export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL'; // Use your current SSM or token value
 
