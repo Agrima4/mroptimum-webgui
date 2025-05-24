@@ -27,9 +27,11 @@
 export const CLOUDMR_SERVER = 'https://1vi3agb7cd.execute-api.us-east-1.amazonaws.com'; // Host
 export const MRO_SERVER = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com';     // MROApi-dev
 export const PROFILE_SERVER = 'https://1nq0mvdigl.execute-api.us-east-1.amazonaws.com'; // ProfileGetAPI
-export const API_URL = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/api-token'; // matches MROApi-dev + /api-token
+export const API_URL = 'https://w3k2wkjkdl.execute-api.us-east-1.amazonaws.com/login';  // Login endpoint exposed via ApiTokenFunction
 
-export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL'; // Use your current SSM or token value
+// TEMPORARY ONLY for local testing
+export const API_TOKEN = 'khZdn001QNpOyQVxXRCS2KZezlJDnVdL';
+
 
 
 
